@@ -15,7 +15,7 @@ struct SeanView: View {
             VStack {
                 Text("Sean Wong")
                     .font(.custom("Papyrus", size: 64))
-                    .foregroundColor(.)
+                    .foregroundColor(.red)
             }
         }.background(
             RadialGradient(colors: [.white,.blue,.green,.blue,.black,.gray,.mint], center: .center, startRadius: 100, endRadius: 1000)

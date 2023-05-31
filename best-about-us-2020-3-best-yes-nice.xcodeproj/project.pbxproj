@@ -14,6 +14,7 @@
 		1AEC2B792A2715B40020D255 /* SeanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC2B782A2715B40020D255 /* SeanView.swift */; };
 		1AEC2B7C2A27166D0020D255 /* Font in Frameworks */ = {isa = PBXBuildFile; productRef = 1AEC2B7B2A27166D0020D255 /* Font */; };
 		1AEC2B7F2A2719FB0020D255 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 1AEC2B7E2A2719FB0020D255 /* Subsonic */; };
+		513140202A27245F00C24034 /* FaithView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131401F2A27245F00C24034 /* FaithView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1AEC2B6E2A2715800020D255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AEC2B712A2715800020D255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AEC2B782A2715B40020D255 /* SeanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeanView.swift; sourceTree = "<group>"; };
+		5131401F2A27245F00C24034 /* FaithView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaithView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				1AEC2B6A2A27157F0020D255 /* best_about_us_2020_3_best_yes_niceApp.swift */,
+				5131401F2A27245F00C24034 /* FaithView.swift */,
 				1AEC2B6C2A27157F0020D255 /* ContentView.swift */,
 				1AEC2B782A2715B40020D255 /* SeanView.swift */,
 				1AEC2B6E2A2715800020D255 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AEC2B792A2715B40020D255 /* SeanView.swift in Sources */,
+				513140202A27245F00C24034 /* FaithView.swift in Sources */,
 				1AEC2B6D2A27157F0020D255 /* ContentView.swift in Sources */,
 				1AEC2B6B2A27157F0020D255 /* best_about_us_2020_3_best_yes_niceApp.swift in Sources */,
 			);

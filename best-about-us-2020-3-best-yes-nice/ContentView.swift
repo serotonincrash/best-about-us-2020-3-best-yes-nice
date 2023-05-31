@@ -14,9 +14,14 @@ struct ContentView: View {
                 .tabItem {
                     Label("Sean", systemImage: "checkmark")
                 }
+            FaithView()
+                .tabItem {
+                    Label("Faith", systemImage: "checkmark")
+                }
         }
         .padding()
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

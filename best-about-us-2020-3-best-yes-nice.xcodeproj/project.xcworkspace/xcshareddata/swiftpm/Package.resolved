@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "font",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jiachenyee/Font.git",
+      "state" : {
+        "revision" : "8ba3367808b12f0db96ece497e4527275c064649",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "subsonic",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/Subsonic",
+      "state" : {
+        "revision" : "156c5742279df5d2315e29534a2410f418c8a772",
+        "version" : "0.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}

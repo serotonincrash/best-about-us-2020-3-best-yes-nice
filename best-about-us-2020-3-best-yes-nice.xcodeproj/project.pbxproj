@@ -13,6 +13,7 @@
 		1AEC2B722A2715800020D255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC2B712A2715800020D255 /* Preview Assets.xcassets */; };
 		1AEC2B792A2715B40020D255 /* SeanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC2B782A2715B40020D255 /* SeanView.swift */; };
 		1AEC2B7C2A27166D0020D255 /* Font in Frameworks */ = {isa = PBXBuildFile; productRef = 1AEC2B7B2A27166D0020D255 /* Font */; };
+		1AEC2B7F2A2719FB0020D255 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 1AEC2B7E2A2719FB0020D255 /* Subsonic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEC2B7F2A2719FB0020D255 /* Subsonic in Frameworks */,
 				1AEC2B7C2A27166D0020D255 /* Font in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +92,7 @@
 			name = "best-about-us-2020-3-best-yes-nice";
 			packageProductDependencies = (
 				1AEC2B7B2A27166D0020D255 /* Font */,
+				1AEC2B7E2A2719FB0020D255 /* Subsonic */,
 			);
 			productName = "best-about-us-2020-3-best-yes-nice";
 			productReference = 1AEC2B672A27157F0020D255 /* best-about-us-2020-3-best-yes-nice.app */;
@@ -121,6 +124,7 @@
 			mainGroup = 1AEC2B5E2A27157E0020D255;
 			packageReferences = (
 				1AEC2B7A2A27166D0020D255 /* XCRemoteSwiftPackageReference "Font" */,
+				1AEC2B7D2A2719FB0020D255 /* XCRemoteSwiftPackageReference "Subsonic" */,
 			);
 			productRefGroup = 1AEC2B682A27157F0020D255 /* Products */;
 			projectDirPath = "";
@@ -361,6 +365,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		1AEC2B7D2A2719FB0020D255 /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -368,6 +380,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1AEC2B7A2A27166D0020D255 /* XCRemoteSwiftPackageReference "Font" */;
 			productName = Font;
+		};
+		1AEC2B7E2A2719FB0020D255 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AEC2B7D2A2719FB0020D255 /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

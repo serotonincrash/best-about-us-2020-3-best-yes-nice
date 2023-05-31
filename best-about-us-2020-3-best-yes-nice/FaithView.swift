@@ -16,9 +16,25 @@
          ZStack {
              Color.clear
              VStack {
+                 Image("duo")
+                     .resizable()
+                .scaledToFit()
+                .frame(width:200)
+                .border (.cyan, width:15)
+              
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                
+                 
                  Text("faith yang")
-                     .font(.custom("chalkboard", size: 64))
-                     .foregroundColor(.white)
+                     .font(.custom("Baskerville", size: 50))
+                     .foregroundStyle(LinearGradient(colors: [.black,.brown,.black,.brown], startPoint: .leading, endPoint: .trailing))
+                     .italic()
              }
          }.background(
              LinearGradient(colors: [.red,.orange,.yellow,.green,.blue,.indigo,.purple], startPoint:.leading, endPoint:.trailing)

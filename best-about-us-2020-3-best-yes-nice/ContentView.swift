@@ -19,6 +19,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Faith", systemImage: "checkmark")
                 }
+            EthanView()
+                .tabItem {
+                    Label("Ethan", systemImage: "fan.ceiling")
+                }
         }
         .rotationEffect(isFun ? .degrees(0) : .degrees(360))
         .animation(.easeInOut(duration: 5).repeatForever(), value: isFun)

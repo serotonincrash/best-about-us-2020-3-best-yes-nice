@@ -11,7 +11,7 @@ import Subsonic
 
 struct SeanView: View {
     @State var isAnimating = true
-    
+    @Binding var isFun: Bool
     var body: some View {
         ZStack {
             Color.clear
@@ -23,10 +23,11 @@ struct SeanView: View {
                     }
                     .scaledToFit()
                     .frame(width:200)
+                    .offset(x: -200)
                     .shadow(radius: 3)
-                    .scaleEffect(self.isAnimating ? 0.5 :1)
+                    
                     .rotationEffect(self.isAnimating ? .degrees(0) : .degrees(360))
-                    .animation(.easeInOut(duration: 0.25).repeatForever())
+                    .animation(.easeInOut(duration: 1).repeatForever(autoreverses: false), value: isAnimating)
                     .padding(.all)
                 Text("Sean Wong")
                     .font(.custom("Papyrus", size: 64))
@@ -35,6 +36,14 @@ struct SeanView: View {
                     .bold()
                     .strikethrough()
                     .padding()
+                    .scaleEffect(self.isAnimating ? 0.5 :1)
+                    .animation(.easeInOut(duration: 0.25).repeatForever(), value: isAnimating)
+                Button {
+                    isFun = true
+                } label: {
+                    Text("Make things actually fun").font(.custom("Papyrus", size: 64))
+                        
+                }
                 
             }
         }.background(
@@ -44,11 +53,13 @@ struct SeanView: View {
             play(sound: "rickroll.mp3")
         })
         
+        
+        
     }
 }
 
 struct SeanView_Previews: PreviewProvider {
     static var previews: some View {
-        SeanView()
+        SeanView(isFun: .constant(true))
     }
 }

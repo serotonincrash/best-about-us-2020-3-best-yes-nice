@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isFun = false
     var body: some View {
         TabView {
-            SeanView()
+            SeanView(isFun: $isFun)
                 .tabItem {
                     Label("Sean", systemImage: "checkmark")
                 }
@@ -19,7 +20,9 @@ struct ContentView: View {
                     Label("Faith", systemImage: "checkmark")
                 }
         }
-        .padding()
+        .rotationEffect(isFun ? .degrees(0) : .degrees(360))
+        .animation(.easeInOut(duration: 5).repeatForever(), value: isFun)
+        
     }
     
 }

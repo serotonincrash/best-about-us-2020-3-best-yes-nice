@@ -11,6 +11,8 @@
 		1AEC2B6D2A27157F0020D255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC2B6C2A27157F0020D255 /* ContentView.swift */; };
 		1AEC2B6F2A2715800020D255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC2B6E2A2715800020D255 /* Assets.xcassets */; };
 		1AEC2B722A2715800020D255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC2B712A2715800020D255 /* Preview Assets.xcassets */; };
+		1AEC2B792A2715B40020D255 /* SeanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC2B782A2715B40020D255 /* SeanView.swift */; };
+		1AEC2B7C2A27166D0020D255 /* Font in Frameworks */ = {isa = PBXBuildFile; productRef = 1AEC2B7B2A27166D0020D255 /* Font */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,7 @@
 		1AEC2B6C2A27157F0020D255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1AEC2B6E2A2715800020D255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AEC2B712A2715800020D255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AEC2B782A2715B40020D255 /* SeanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEC2B7C2A27166D0020D255 /* Font in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +57,7 @@
 			children = (
 				1AEC2B6A2A27157F0020D255 /* best_about_us_2020_3_best_yes_niceApp.swift */,
 				1AEC2B6C2A27157F0020D255 /* ContentView.swift */,
+				1AEC2B782A2715B40020D255 /* SeanView.swift */,
 				1AEC2B6E2A2715800020D255 /* Assets.xcassets */,
 				1AEC2B702A2715800020D255 /* Preview Content */,
 			);
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = "best-about-us-2020-3-best-yes-nice";
+			packageProductDependencies = (
+				1AEC2B7B2A27166D0020D255 /* Font */,
+			);
 			productName = "best-about-us-2020-3-best-yes-nice";
 			productReference = 1AEC2B672A27157F0020D255 /* best-about-us-2020-3-best-yes-nice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 1AEC2B5E2A27157E0020D255;
+			packageReferences = (
+				1AEC2B7A2A27166D0020D255 /* XCRemoteSwiftPackageReference "Font" */,
+			);
 			productRefGroup = 1AEC2B682A27157F0020D255 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEC2B792A2715B40020D255 /* SeanView.swift in Sources */,
 				1AEC2B6D2A27157F0020D255 /* ContentView.swift in Sources */,
 				1AEC2B6B2A27157F0020D255 /* best_about_us_2020_3_best_yes_niceApp.swift in Sources */,
 			);
@@ -339,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AEC2B7A2A27166D0020D255 /* XCRemoteSwiftPackageReference "Font" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jiachenyee/Font.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AEC2B7B2A27166D0020D255 /* Font */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AEC2B7A2A27166D0020D255 /* XCRemoteSwiftPackageReference "Font" */;
+			productName = Font;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AEC2B5F2A27157E0020D255 /* Project object */;
 }

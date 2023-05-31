@@ -18,6 +18,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Faith", systemImage: "checkmark")
                 }
+            EthanView()
+                .tabItem {
+                    Label("Ethan", systemImage: "fan.ceiling")
+                }
         }
         .padding()
     }
